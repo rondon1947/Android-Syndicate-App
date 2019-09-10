@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.syndicate.Quiz5">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;- Back"
+        android:id="@+id/button34"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Question 5 : \n Which team won the 1983 World Cup?"
+        android:id="@+id/textView15"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button34"
+        android:layout_alignParentLeft="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView15">
+
+        <RadioButton
+            android:layout_width="226dp"
+            android:layout_height="57dp"
+            android:text="India"
+            android:id="@+id/radioButton17"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="223dp"
+            android:layout_height="49dp"
+            android:text="West Indies"
+            android:id="@+id/radioButton18"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="224dp"
+            android:layout_height="54dp"
+            android:text="Australia"
+            android:id="@+id/radioButton19"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="226dp"
+            android:layout_height="59dp"
+            android:text="England"
+            android:id="@+id/radioButton20"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button36"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp" />
+</RelativeLayout>
